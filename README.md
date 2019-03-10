@@ -17,9 +17,10 @@ In this project, our task is to create a reporting tool that prints out reports 
 # Setup Project:
 
 	1. Install Vagrant and VirtualBox
-	2. Download the data from here.
-	3. Unzip this file after downloading it. The file inside is called newsdata.sql .
-	4. Copy the newsdata.sql file and content of this current repository, by either downloading or cloning it from Here
+	2.Download or Clone [fullstack-nanodegree-vm](http://https://github.com/udacity/fullstack-nanodegree-vm) repository.
+	3. Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
+	4. Unzip this file after downloading it. The file inside is called newsdata.sql .
+	5. Copy the newsdata.sql file and content of this current repository, by either downloading or cloning it from [Here](https://github.com/arbidha/Log_Analysis)
 
 # Launching the Virtual Machine:
 
@@ -65,4 +66,3 @@ In this project, our task is to create a reporting tool that prints out reports 
 
 	1. From the vagrant directory inside the virtual machine,run log_analysis.py
         $ python log_analysis.py
-
