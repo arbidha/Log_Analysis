@@ -15,7 +15,7 @@ In this project, our task is to create a reporting tool that prints out reports 
 # Setup Project:
 
 	1. Install Vagrant and VirtualBox
-	2. Download or Clone [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository.
+	2. Download or Clone fullstack-nanodegree-vm repository.
 	3. Download the data from here.
 	4. Unzip this file after downloading it. The file inside is called newsdata.sql .
 	5. Copy the newsdata.sql file and content of this current repository, by either downloading or cloning it from Here
