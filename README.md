@@ -23,26 +23,23 @@ Setup Project:
 Launching the Virtual Machine:
 
 	1. Launch the Vagrant VM inside Vagrant sub-directory in the downloaded fullstack-nanodegree-vm repository using command:
-       	    $ vagrant up
+       	   $ vagrant up
 	    
 	2. Then Log into this using command:
-            $ vagrant ssh
+           $ vagrant ssh
 	    
 	3. Change directory to cd  /vagrant and look around with ls.
 	
 Setting up the database and Creating Views:
 
-	1. Load the data in local database using the command:
-	
-	  psql -d news -f newsdata.sql
-	    The database includes three tables:
-	    
+	1. Load the data in local database using the command:	
+	    psql -d news -f newsdata.sql
+	  
+	    The database includes three tables:	    
 		○ The authors table includes information about the authors of articles.
 		○ The articles table includes the articles themselves.
-		○ The log table includes one entry for each time a user has accessed the site.
-		
-	2. Use psql -d news to connect to database.
-	
+		○ The log table includes one entry for each time a user has accessed the site.		
+	2. Use psql -d news to connect to database.	
 	3. Create view popular_article_view using:
 	
 		CREATE VIEW popular_article_view AS
@@ -53,8 +50,7 @@ Setting up the database and Creating Views:
 		    GROUP BY 1
 		    order by 2 desc ;
 		    
-	4. Create view error_log_view using:
-	
+	4. Create view error_log_view using:	
 		CREATE VIEW error_log_view AS
 		    SELECT date(time) AS errortime ,round(100.0 * SUM(
 			CASE log.status WHEN '200 OK'
