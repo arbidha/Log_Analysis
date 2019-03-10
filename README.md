@@ -4,15 +4,15 @@
 This is a project assigned by Udacity as a part of the Udacity Full Stack Nanodegree program.
 In this project, our task is to create a reporting tool that prints out reports based on the data in the database. This reporting tool is a Python program using the PostgreSQL database and Vagrant file settings to run a VM server to run the database.
 
-##How to Run?
+## How to Run?
 
-#PreRequisites:
+# PreRequisites:
 
 	• Python3
 	• Vagrant
 	• VirtualBox
 
-#Setup Project:
+# Setup Project:
 
 	1. Install Vagrant and VirtualBox
 	2. Download or Clone [fullstack-nanodegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository.
@@ -20,7 +20,7 @@ In this project, our task is to create a reporting tool that prints out reports 
 	4. Unzip this file after downloading it. The file inside is called newsdata.sql .
 	5. Copy the newsdata.sql file and content of this current repository, by either downloading or cloning it from Here
 
-#Launching the Virtual Machine:
+# Launching the Virtual Machine:
 
 	1. Launch the Vagrant VM inside Vagrant sub-directory in the downloaded fullstack-nanodegree-vm repository using command:
        	   $ vagrant up
@@ -30,7 +30,7 @@ In this project, our task is to create a reporting tool that prints out reports 
 
 	3. Change directory to cd  /vagrant and look around with ls.
 
-#Setting up the database and Creating Views:
+# Setting up the database and Creating Views:
 
 	1. Load the data in local database using the command:
 	    psql -d news -f newsdata.sql
@@ -60,7 +60,7 @@ In this project, our task is to create a reporting tool that prints out reports 
 		     GROUP BY date(time)
 		     ORDER BY error_percent  DESC;
 
-#Running the queries:
+# Running the queries:
 
 	1. From the vagrant directory inside the virtual machine,run log_analysis.py
         $ python log_analysis.py
