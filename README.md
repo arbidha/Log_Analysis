@@ -15,7 +15,7 @@ PreRequisites:
 Setup Project:
 
 	1. Install Vagrant and VirtualBox
-	2. Download or Clone <a href="https://github.com/udacity/fullstack-nanodegree-vm>"fullstack-nanodegree-vm</a>repository.
+	2. Download or Clone <a href="https://github.com/udacity/fullstack-nanodegree-vm">fullstack-nanodegree-vm</a>repository.
 	3. Download the data from here.
 	4. Unzip this file after downloading it. The file inside is called newsdata.sql .
 	5. Copy the newsdata.sql file and content of this current repository, by either downloading or cloning it from Here
